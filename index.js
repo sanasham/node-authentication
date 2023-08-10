@@ -13,6 +13,9 @@ connectToDatabase();
 //   next();
 // };
 
+// app.use('/', middleware, (req, res) => {
+//   res.render('../pages/LandingPage.ejs');
+// });
 app.use('/users', userRoutes);
 app.use('/pages', userRoutes);
 
